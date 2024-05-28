@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
 
 import { HeaderComponent } from '../../components/shared/header/header.component';
+import { FooterComponent } from '../../components/shared/footer/footer.component';
 
-const COMPONENTS = [HeaderComponent];
+const COMPONENTS = [HeaderComponent, FooterComponent];
 
 @Component({
   selector: 'app-landing-page',
